@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">covid19 app</string>
+    <string name="por_vacinar">402</string>
+    <string name="stock">Stock</string>
+    <string name="por_vacinar_str">Por Vacinar</string>
+    <string name="stock_num_str">2312</string>
+    <string name="confirmado">Confirmado</string>
+    <string name="notificar">Notificar</string>
+    <string name="bruna_fernandes">Bruna fernandes</string>
+    <string name="catarina_neves">Catarina Neves</string>
+    <string name="bruno_sousa">Bruno Sousa</string>
+    <string name="ricardo_dias">Ricardo Dias</string>
+    <string name="catia_lopes">Catia Lopes</string>
+    <string name="filipe_pedrosa">Filipe Pedrosa</string>
+    <string name="tomas_bento">Tomas Bento</string>
+    <string name="maria_vieira">Maria Vieira</string>
+    <string name="manuel_matos">Manuel Matos</string>
+    <string name="recusou">Recusou</string>
+    <string name="nao_respondeu">Nao respondeu</string>
+    <string name="search">Search</string>
+    <string name="doses_marca">Doses dadas:</string>
+    <string name="notif_enviada">Notificação enviada!</string>
+</resources>

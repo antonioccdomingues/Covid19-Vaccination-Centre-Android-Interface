@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Relative Layout-->
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relativelayout">
+
+    <!--List View from which data is to be searched-->
+    <ListView
+        android:layout_marginTop="150dp"
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        />
+
+    <View
+        android:layout_width="50dp"
+        android:layout_height="7dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="90dp"
+        android:background="#4CAF50"
+        android:layout_marginStart="20dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:text="@string/confirmado"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="82dp"
+        android:textStyle="bold"
+        android:layout_marginStart="80dp" />
+
+    <View
+        android:layout_width="50dp"
+        android:layout_height="7dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="110dp"
+        android:background="#FFC107"
+        android:layout_marginStart="20dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="@string/nao_respondeu"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="102dp"
+        android:textStyle="bold"
+        android:layout_marginStart="80dp" />
+
+    <View
+        android:layout_width="50dp"
+        android:layout_height="7dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="130dp"
+        android:background="#FF0000"
+        android:layout_marginStart="20dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:text="@string/recusou"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="122dp"
+        android:textStyle="bold"
+        android:layout_marginStart="80dp" />
+
+    <TextView
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold"
+        android:backgroundTint="#F0E68C"
+        android:text="Para notificar pessoas que não responderam clique em lembrete"/>
+
+    <Button
+        android:id="@+id/button_lembrete"
+        android:layout_height="40dp"
+        android:layout_width="100dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#5C615D"
+        android:textColor="@android:color/white"
+        android:textSize="11dp"
+        android:text="Lembrete" />
+
+</RelativeLayout>
+
+

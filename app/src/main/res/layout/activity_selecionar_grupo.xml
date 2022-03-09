@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_1"
+    tools:context=".Selecionar_grupo">
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notificar grupo para confirmar vacina"
+        android:translationY="240dp"
+        app:layout_constraintBottom_toTopOf="@+id/tvGrupo1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tvGrupo4"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+
+        android:height="30dp"
+
+        android:background="#BEC7CD"
+        android:drawableLeft="@drawable/ic_baseline_group_24"
+        android:gravity="center"
+        android:text="Grupo 4"
+        android:translationY="280dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvGrupo3" />
+
+    <TextView
+        android:id="@+id/tvGrupo1"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:height="30dp"
+        android:background="#BEC7CD"
+        android:drawableLeft="@drawable/ic_baseline_group_24"
+
+        android:gravity="center"
+
+        android:text="Grupo 1"
+        android:translationY="250dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvGrupo2"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:height="30dp"
+        android:background="#BEC7CD"
+
+        android:drawableLeft="@drawable/ic_baseline_group_24"
+
+        android:gravity="center"
+        android:text="Grupo 2"
+        android:translationY="260dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvGrupo1" />
+
+    <TextView
+        android:id="@+id/tvGrupo3"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:height="30dp"
+
+        android:background="#BEC7CD"
+
+        android:drawableLeft="@drawable/ic_baseline_group_24"
+        android:gravity="center"
+        android:text="Grupo 3"
+        android:translationY="270dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvGrupo2" />
+
+    <TextView
+        android:id="@+id/tvGrupo5"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+
+        android:height="30dp"
+        android:background="#BEC7CD"
+        android:drawableLeft="@drawable/ic_baseline_group_24"
+        android:gravity="center"
+        android:text="Grupo 5"
+        android:translationY="290dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvGrupo4" />
+
+    <TextView
+        android:id="@+id/tvGrupo6"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+
+        android:height="30dp"
+        android:background="#BEC7CD"
+        android:drawableLeft="@drawable/ic_baseline_group_24"
+        android:gravity="center"
+        android:text="Grupo 6"
+        android:translationY="300dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvGrupo5" />
+
+    <Button
+        android:id="@+id/bGrupo1"
+        android:layout_width="95dp"
+        android:layout_height="32dp"
+        android:text="Notificar"
+        android:textSize="10sp"
+        android:translationX="-10dp"
+        android:translationY="250dp"
+        android:onClick="notifyGroup"
+        app:backgroundTint="#2196F3"
+        app:layout_constraintEnd_toEndOf="@+id/tvGrupo1"
+        app:layout_constraintTop_toTopOf="@+id/tvGrupo1"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/bGrupo2"
+        android:layout_width="95dp"
+        android:layout_height="32dp"
+        android:text="Notificar"
+        android:textSize="10sp"
+        android:translationX="-10dp"
+        android:translationY="260dp"
+        android:onClick="notifyGroup"
+        app:backgroundTint="#2196F3"
+        app:layout_constraintEnd_toEndOf="@+id/tvGrupo2"
+        app:layout_constraintTop_toTopOf="@+id/tvGrupo2"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/bGrupo3"
+        android:layout_width="95dp"
+        android:layout_height="32dp"
+        android:text="Notificar"
+        android:textSize="10sp"
+        android:translationX="-10dp"
+        android:translationY="270dp"
+        android:onClick="notifyGroup"
+        app:backgroundTint="#2196F3"
+        app:layout_constraintEnd_toEndOf="@+id/tvGrupo3"
+        app:layout_constraintTop_toTopOf="@+id/tvGrupo3"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/bGrupo4"
+        android:layout_width="95dp"
+        android:layout_height="32dp"
+        android:text="Notificar"
+        android:textSize="10sp"
+        android:translationX="-10dp"
+        android:translationY="280dp"
+        android:onClick="notifyGroup"
+        app:backgroundTint="#2196F3"
+        app:layout_constraintEnd_toEndOf="@+id/tvGrupo4"
+        app:layout_constraintTop_toTopOf="@+id/tvGrupo4"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/bGrupo5"
+        android:layout_width="95dp"
+        android:layout_height="32dp"
+        android:text="Notificar"
+        android:textSize="10sp"
+        android:translationX="-10dp"
+        android:translationY="290dp"
+        android:onClick="notifyGroup"
+        app:backgroundTint="#2196F3"
+        app:layout_constraintEnd_toEndOf="@+id/tvGrupo5"
+        app:layout_constraintTop_toTopOf="@+id/tvGrupo5"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/bGrupo6"
+        android:layout_width="95dp"
+        android:layout_height="32dp"
+        android:text="Notificar"
+        android:textSize="10sp"
+        android:translationX="-10dp"
+        android:translationY="300dp"
+        android:onClick="notifyGroup"
+        app:backgroundTint="#2196F3"
+        app:layout_constraintEnd_toEndOf="@+id/tvGrupo6"
+        app:layout_constraintTop_toTopOf="@+id/tvGrupo6"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prioridade 1"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:translationX="-40dp"
+        android:translationY="250dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvGrupo1"
+        app:layout_constraintEnd_toStartOf="@+id/bGrupo1"
+        app:layout_constraintStart_toStartOf="@+id/tvGrupo1"
+        app:layout_constraintTop_toTopOf="@+id/tvGrupo1" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prioridade 1"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:translationX="-40dp"
+        android:translationY="260dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvGrupo2"
+        app:layout_constraintEnd_toStartOf="@+id/bGrupo2"
+        app:layout_constraintStart_toStartOf="@+id/tvGrupo2"
+        app:layout_constraintTop_toTopOf="@+id/tvGrupo2" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prioridade 2"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:translationX="-40dp"
+        android:translationY="270dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvGrupo3"
+        app:layout_constraintEnd_toStartOf="@+id/bGrupo3"
+        app:layout_constraintStart_toStartOf="@+id/tvGrupo3"
+        app:layout_constraintTop_toTopOf="@+id/tvGrupo3" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prioridade 2"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:translationX="-40dp"
+        android:translationY="280dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvGrupo4"
+        app:layout_constraintEnd_toStartOf="@+id/bGrupo4"
+        app:layout_constraintStart_toStartOf="@+id/tvGrupo4"
+        app:layout_constraintTop_toTopOf="@+id/tvGrupo4" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prioridade 3"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:translationX="-40dp"
+        android:translationY="290dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvGrupo5"
+        app:layout_constraintEnd_toStartOf="@+id/bGrupo5"
+        app:layout_constraintStart_toStartOf="@+id/tvGrupo5"
+        app:layout_constraintTop_toTopOf="@+id/tvGrupo5" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prioridade 3"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:translationX="-40dp"
+        android:translationY="300dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvGrupo6"
+        app:layout_constraintEnd_toStartOf="@+id/bGrupo6"
+        app:layout_constraintStart_toStartOf="@+id/tvGrupo6"
+        app:layout_constraintTop_toTopOf="@+id/tvGrupo6" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="175dp"
+        android:layout_height="236dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/covid_vaccine" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
